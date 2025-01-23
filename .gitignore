@@ -1,0 +1,45 @@
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+target/
+build/
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Maven-specific
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle-specific
+.gradle/
+build/
+
+# Eclipse-specific
+.project
+.classpath
+.settings/
+
+# Generated files
+*.war
+*.ear
+*.jar
+
+# Package-lock and environment files
+node_modules/
+.env
+
+# JetBrains
+*.swp
+*.swo
