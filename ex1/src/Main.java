@@ -1,9 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        Circle c1 = new Circle();
-        System.out.println("The circle has radius of "
-                + c1.getRadius() + " and area of " + c1.getArea());
-        Circle c2 = new Circle(2.0);
-        System.out.println("The circle has radius of "
-                + c2.getRadius() + " and area of " + c2.getArea());
-    }}
+        // Create a Circle using the default constructor
+        Circle circle1 = new Circle();
+        System.out.println("Circle 1: " + circle1);
+        System.out.println("Area of Circle 1: " + circle1.getArea());
+
+        // Create a Circle with a specific radius
+        Circle circle2 = new Circle(5.0);
+        System.out.println("\nCircle 2: " + circle2);
+        System.out.println("Area of Circle 2: " + circle2.getArea());
+
+        // Create a Circle with a specific radius and color
+        Circle circle3 = new Circle(3.0, "blue");
+        System.out.println("\nCircle 3: " + circle3);
+        System.out.println("Area of Circle 3: " + circle3.getArea());
+
+        // Modify Circle 3's properties
+        circle3.setRadius(4.0);
+        circle3.setColor("green");
+        System.out.println("\nUpdated Circle 3: " + circle3);
+        System.out.println("Updated Area of Circle 3: " + circle3.getArea());
+    }
+}
