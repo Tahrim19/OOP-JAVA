@@ -1,7 +1,7 @@
 public class Employee {
     private int id;
-    public String firstName;
-    public String lastName;
+    private String firstName;
+    private String lastName;
     private int salary;
 
     public Employee(int id, String firstName, String lastName, int salary){
